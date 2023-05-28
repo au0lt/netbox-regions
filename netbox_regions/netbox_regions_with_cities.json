@@ -1,0 +1,955 @@
+[
+    {
+        "name": "Africa",
+        "slug": "africa"
+    },
+    {
+        "name": "South Africa",
+        "slug": "ZA",
+        "parent": "Africa"
+    },
+    {
+        "name": "Gauteng",
+        "slug": "ZA-GP",
+        "parent": "South Africa"
+    },
+    {
+        "name": "Johannesburg",
+        "slug": "johannesburg",
+        "parent": "Gauteng"
+    },
+    {
+        "name": "Western Cape",
+        "slug": "ZA-WC",
+        "parent": "South Africa"
+    },
+    {
+        "name": "Cape Town",
+        "slug": "cape-town",
+        "parent": "Western Cape"
+    },
+    {
+        "name": "Asia",
+        "slug": "asia"
+    },
+    {
+        "name": "China",
+        "slug": "CN",
+        "parent": "Asia"
+    },
+    {
+        "name": "Beijing Shi",
+        "slug": "CN-BJ",
+        "parent": "China"
+    },
+    {
+        "name": "Hong Kong",
+        "slug": "HK",
+        "parent": "Asia"
+    },
+    {
+        "name": "India",
+        "slug": "IN",
+        "parent": "Asia"
+    },
+    {
+        "name": "Delhi",
+        "slug": "IN-DL",
+        "parent": "India"
+    },
+    {
+        "name": "Maharashtra",
+        "slug": "IN-MH",
+        "parent": "India"
+    },
+    {
+        "name": "Japan",
+        "slug": "JP",
+        "parent": "Asia"
+    },
+    {
+        "name": "Osaka",
+        "slug": "JP-27",
+        "parent": "Japan"
+    },
+    {
+        "name": "Tokyo",
+        "slug": "JP-13",
+        "parent": "Japan"
+    },
+    {
+        "name": "Singapore",
+        "slug": "SG",
+        "parent": "Asia"
+    },
+    {
+        "name": "Taiwan",
+        "slug": "TW",
+        "parent": "Asia"
+    },
+    {
+        "name": "Turkey",
+        "slug": "TR",
+        "parent": "Asia"
+    },
+    {
+        "name": "United Arab Emirates",
+        "slug": "AE",
+        "parent": "Asia"
+    },
+    {
+        "name": "Central America",
+        "slug": "central-america"
+    },
+    {
+        "name": "Belize",
+        "slug": "BZ",
+        "parent": "Central America"
+    },
+    {
+        "name": "Costa Rica",
+        "slug": "CR",
+        "parent": "Central America"
+    },
+    {
+        "name": "El Salvador",
+        "slug": "SV",
+        "parent": "Central America"
+    },
+    {
+        "name": "Guatemala",
+        "slug": "GT",
+        "parent": "Central America"
+    },
+    {
+        "name": "Honduras",
+        "slug": "HN",
+        "parent": "Central America"
+    },
+    {
+        "name": "Nicaragua",
+        "slug": "NI",
+        "parent": "Central America"
+    },
+    {
+        "name": "Panama",
+        "slug": "PA",
+        "parent": "Central America"
+    },
+    {
+        "name": "Europe",
+        "slug": "europe"
+    },
+    {
+        "name": "Andorra",
+        "slug": "AD",
+        "parent": "Europe"
+    },
+    {
+        "name": "Austria",
+        "slug": "AT",
+        "parent": "Europe"
+    },
+    {
+        "name": "Belarus",
+        "slug": "BY",
+        "parent": "Europe"
+    },
+    {
+        "name": "Belgium",
+        "slug": "BE",
+        "parent": "Europe"
+    },
+    {
+        "name": "Brussels",
+        "slug": "BE-BRU",
+        "parent": "Belgium"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "slug": "BA",
+        "parent": "Europe"
+    },
+    {
+        "name": "Bulgaria",
+        "slug": "BG",
+        "parent": "Europe"
+    },
+    {
+        "name": "Croatia",
+        "slug": "HR",
+        "parent": "Europe"
+    },
+    {
+        "name": "Czechia",
+        "slug": "CZ",
+        "parent": "Europe"
+    },
+    {
+        "name": "Denmark",
+        "slug": "DK",
+        "parent": "Europe"
+    },
+    {
+        "name": "Hovedstaden",
+        "slug": "DK-84",
+        "parent": "Denmark"
+    },
+    {
+        "name": "Copenhagen",
+        "slug": "copenhagen",
+        "parent": "Hovedstaden"
+    },
+    {
+        "name": "Estonia",
+        "slug": "EE",
+        "parent": "Europe"
+    },
+    {
+        "name": "Finland",
+        "slug": "FI",
+        "parent": "Europe"
+    },
+    {
+        "name": "France",
+        "slug": "FR",
+        "parent": "Europe"
+    },
+    {
+        "name": "Ile-de-France",
+        "slug": "FR-IDF",
+        "parent": "France"
+    },
+    {
+        "name": "Paris",
+        "slug": "paris",
+        "parent": "Ile-de-France"
+    },
+    {
+        "name": "Provence-Alpes-Cote-d-Azur",
+        "slug": "FR-PAC",
+        "parent": "France"
+    },
+    {
+        "name": "Marseille",
+        "slug": "marseille",
+        "parent": "Provence-Alpes-Cote-d-Azur"
+    },
+    {
+        "name": "Germany",
+        "slug": "DE",
+        "parent": "Europe"
+    },
+    {
+        "name": "Bayern",
+        "slug": "DE-BY",
+        "parent": "Germany"
+    },
+    {
+        "name": "Munich",
+        "slug": "munich",
+        "parent": "Bayern"
+    },
+    {
+        "name": "Berlin",
+        "slug": "DE-BE",
+        "parent": "Germany"
+    },
+    {
+        "name": "Hamburg",
+        "slug": "DE-HH",
+        "parent": "Germany"
+    },
+    {
+        "name": "Hessen",
+        "slug": "DE-HE",
+        "parent": "Germany"
+    },
+    {
+        "name": "Frankfurt am Main",
+        "slug": "frankfurt-am-main",
+        "parent": "Hessen"
+    },
+    {
+        "name": "Greece",
+        "slug": "GR",
+        "parent": "Europe"
+    },
+    {
+        "name": "Hungary",
+        "slug": "HU",
+        "parent": "Europe"
+    },
+    {
+        "name": "Ireland",
+        "slug": "IE",
+        "parent": "Europe"
+    },
+    {
+        "name": "Italy",
+        "slug": "IT",
+        "parent": "Europe"
+    },
+    {
+        "name": "Latvia",
+        "slug": "LV",
+        "parent": "Europe"
+    },
+    {
+        "name": "Liechtenstein",
+        "slug": "LI",
+        "parent": "Europe"
+    },
+    {
+        "name": "Lithuania",
+        "slug": "LT",
+        "parent": "Europe"
+    },
+    {
+        "name": "Luxembourg",
+        "slug": "LU",
+        "parent": "Europe"
+    },
+    {
+        "name": "Moldova",
+        "slug": "MD",
+        "parent": "Europe"
+    },
+    {
+        "name": "Netherlands",
+        "slug": "NL",
+        "parent": "Europe"
+    },
+    {
+        "name": "Noord-Holland",
+        "slug": "NL-NH",
+        "parent": "Europe"
+    },
+    {
+        "name": "Amsterdam",
+        "slug": "amsterdam",
+        "parent": "Noord-Holland"
+    },
+    {
+        "name": "Norway",
+        "slug": "NO",
+        "parent": "Europe"
+    },
+    {
+        "name": "Poland",
+        "slug": "PL",
+        "parent": "Europe"
+    },
+    {
+        "name": "Portugal",
+        "slug": "PT",
+        "parent": "Europe"
+    },
+    {
+        "name": "Lisbon",
+        "slug": "PT-11",
+        "parent": "Portugal"
+    },
+    {
+        "name": "Romania",
+        "slug": "RO",
+        "parent": "Europe"
+    },
+    {
+        "name": "Russian Federation",
+        "slug": "RU",
+        "parent": "Europe"
+    },
+    {
+        "name": "Serbia",
+        "slug": "RS",
+        "parent": "Europe"
+    },
+    {
+        "name": "Slovakia",
+        "slug": "SK",
+        "parent": "Europe"
+    },
+    {
+        "name": "Spain",
+        "slug": "ES",
+        "parent": "Europe"
+    },
+    {
+        "name": "Madrid",
+        "slug": "ES-MD",
+        "parent": "Spain"
+    },
+    {
+        "name": "Sweden",
+        "slug": "SE",
+        "parent": "Europe"
+    },
+    {
+        "name": "Switzerland",
+        "slug": "CH",
+        "parent": "Europe"
+    },
+    {
+        "name": "Bern",
+        "slug": "CH-BE",
+        "parent": "Switzerland"
+    },
+    {
+        "name": "Ukraine",
+        "slug": "UA",
+        "parent": "Europe"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "slug": "GB",
+        "parent": "Europe"
+    },
+    {
+        "name": "North America",
+        "slug": "north-america"
+    },
+    {
+        "name": "Canada",
+        "slug": "CA",
+        "parent": "North America"
+    },
+    {
+        "name": "Alberta",
+        "slug": "CA-AB",
+        "parent": "Canada"
+    },
+    {
+        "name": "British Columbia",
+        "slug": "CA-BC",
+        "parent": "Canada"
+    },
+    {
+        "name": "Manitoba",
+        "slug": "CA-MB",
+        "parent": "Canada"
+    },
+    {
+        "name": "New Brunswick",
+        "slug": "CA-NB",
+        "parent": "Canada"
+    },
+    {
+        "name": "Newfoundland and Labrador",
+        "slug": "CA-NL",
+        "parent": "Canada"
+    },
+    {
+        "name": "Nova Scotia",
+        "slug": "CA-NS",
+        "parent": "Canada"
+    },
+    {
+        "name": "Ontario",
+        "slug": "CA-ON",
+        "parent": "Canada"
+    },
+    {
+        "name": "Prince Edward Island",
+        "slug": "CA-PE",
+        "parent": "Canada"
+    },
+    {
+        "name": "Quebec",
+        "slug": "CA-QC",
+        "parent": "Canada"
+    },
+    {
+        "name": "Saskatchewan",
+        "slug": "CA-SK",
+        "parent": "Canada"
+    },
+    {
+        "name": "Northwest Territories",
+        "slug": "CA-NT",
+        "parent": "Canada"
+    },
+    {
+        "name": "Nunavut",
+        "slug": "CA-NU",
+        "parent": "Canada"
+    },
+    {
+        "name": "Yukon",
+        "slug": "CA-YT",
+        "parent": "Canada"
+    },
+    {
+        "name": "United States",
+        "slug": "US",
+        "parent": "North America"
+    },
+    {
+        "name": "Alabama",
+        "slug": "US-AL",
+        "parent": "United States"
+    },
+    {
+        "name": "Alaska",
+        "slug": "US-AK",
+        "parent": "United States"
+    },
+    {
+        "name": "Arizona",
+        "slug": "US-AZ",
+        "parent": "United States"
+    },
+    {
+        "name": "Pheonix",
+        "slug": "pheonix",
+        "parent": "Arizona"
+    },
+    {
+        "name": "Arkansas",
+        "slug": "US-AR",
+        "parent": "United States"
+    },
+    {
+        "name": "California",
+        "slug": "US-CA",
+        "parent": "United States"
+    },
+    {
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "parent": "California"
+    },
+    {
+        "name": "San Jose",
+        "slug": "san-jose",
+        "parent": "California"
+    },
+    {
+        "name": "Colorado",
+        "slug": "US-CO",
+        "parent": "United States"
+    },
+    {
+        "name": "Denver",
+        "slug": "denver",
+        "parent": "Colorado"
+    },
+    {
+        "name": "Connecticut",
+        "slug": "US-CT",
+        "parent": "United States"
+    },
+    {
+        "name": "Delaware",
+        "slug": "US-DE",
+        "parent": "United States"
+    },
+    {
+        "name": "Florida",
+        "slug": "US-FL",
+        "parent": "United States"
+    },
+    {
+        "name": "Miami",
+        "slug": "miami",
+        "parent": "Florida"
+    },
+    {
+        "name": "Orlando",
+        "slug": "orlando",
+        "parent": "Florida"
+    },
+    {
+        "name": "Tampa",
+        "slug": "tampa",
+        "parent": "Florida"
+    },
+    {
+        "name": "Georgia",
+        "slug": "US-GA",
+        "parent": "United States"
+    },
+    {
+        "name": "Hawaii",
+        "slug": "US-HI",
+        "parent": "United States"
+    },
+    {
+        "name": "Idaho",
+        "slug": "US-ID",
+        "parent": "United States"
+    },
+    {
+        "name": "Illinois",
+        "slug": "US-IL",
+        "parent": "United States"
+    },
+    {
+        "name": "Chicago",
+        "slug": "chicago",
+        "parent": "Illinois"
+    },
+    {
+        "name": "Indiana",
+        "slug": "US-IN",
+        "parent": "United States"
+    },
+    {
+        "name": "Iowa",
+        "slug": "US-IA",
+        "parent": "United States"
+    },
+    {
+        "name": "Kansas",
+        "slug": "US-KS",
+        "parent": "United States"
+    },
+    {
+        "name": "Kentucky",
+        "slug": "US-KY",
+        "parent": "United States"
+    },
+    {
+        "name": "Louisiana",
+        "slug": "US-LA",
+        "parent": "United States"
+    },
+    {
+        "name": "Maine",
+        "slug": "US-ME",
+        "parent": "United States"
+    },
+    {
+        "name": "Maryland",
+        "slug": "US-MD",
+        "parent": "United States"
+    },
+    {
+        "name": "Massachusetts",
+        "slug": "US-MA",
+        "parent": "United States"
+    },
+    {
+        "name": "Michigan",
+        "slug": "US-MI",
+        "parent": "United States"
+    },
+    {
+        "name": "Minnesota",
+        "slug": "US-MN",
+        "parent": "United States"
+    },
+    {
+        "name": "Mississippi",
+        "slug": "US-MS",
+        "parent": "United States"
+    },
+    {
+        "name": "Missouri",
+        "slug": "US-MO",
+        "parent": "United States"
+    },
+    {
+        "name": "Montana",
+        "slug": "US-MT",
+        "parent": "United States"
+    },
+    {
+        "name": "Nebraska",
+        "slug": "US-NE",
+        "parent": "United States"
+    },
+    {
+        "name": "Nevada",
+        "slug": "US-NV",
+        "parent": "United States"
+    },
+    {
+        "name": "Las Vegas",
+        "slug": "las-vegas",
+        "parent": "Nevada"
+    },
+    {
+        "name": "Reno",
+        "slug": "reno",
+        "parent": "Nevada"
+    },
+    {
+        "name": "New Hampshire",
+        "slug": "US-NH",
+        "parent": "United States"
+    },
+    {
+        "name": "New Jersey",
+        "slug": "US-NJ",
+        "parent": "United States"
+    },
+    {
+        "name": "New Mexico",
+        "slug": "US-NM",
+        "parent": "United States"
+    },
+    {
+        "name": "New York",
+        "slug": "US-NY",
+        "parent": "United States"
+    },
+    {
+        "name": "New York",
+        "slug": "new-york",
+        "parent": "New York"
+    },
+    {
+        "name": "North Carolina",
+        "slug": "US-NC",
+        "parent": "United States"
+    },
+    {
+        "name": "North Dakota",
+        "slug": "US-ND",
+        "parent": "United States"
+    },
+    {
+        "name": "Ohio",
+        "slug": "US-OH",
+        "parent": "United States"
+    },
+    {
+        "name": "Oklahoma",
+        "slug": "US-OK",
+        "parent": "United States"
+    },
+    {
+        "name": "Oregon",
+        "slug": "US-OR",
+        "parent": "United States"
+    },
+    {
+        "name": "Pennsylvania",
+        "slug": "US-PA",
+        "parent": "United States"
+    },
+    {
+        "name": "Rhode Island",
+        "slug": "US-RI",
+        "parent": "United States"
+    },
+    {
+        "name": "South Carolina",
+        "slug": "US-SC",
+        "parent": "United States"
+    },
+    {
+        "name": "South Dakota",
+        "slug": "US-SD",
+        "parent": "United States"
+    },
+    {
+        "name": "Tennessee",
+        "slug": "US-TN",
+        "parent": "United States"
+    },
+    {
+        "name": "Texas",
+        "slug": "US-TX",
+        "parent": "United States"
+    },
+    {
+        "name": "Austin",
+        "slug": "austin",
+        "parent": "Texas"
+    },
+    {
+        "name": "Dallas",
+        "slug": "dallas",
+        "parent": "Texas"
+    },
+    {
+        "name": "Houston",
+        "slug": "houston",
+        "parent": "Texas"
+    },
+    {
+        "name": "Utah",
+        "slug": "US-UT",
+        "parent": "United States"
+    },
+    {
+        "name": "Salt Lake City",
+        "slug": "salt-lake-city",
+        "parent": "Utah"
+    },
+    {
+        "name": "Vermont",
+        "slug": "US-VT",
+        "parent": "United States"
+    },
+    {
+        "name": "Virginia",
+        "slug": "US-VA",
+        "parent": "United States"
+    },
+    {
+        "name": "Ashburn",
+        "slug": "ashburn",
+        "parent": "Virginia"
+    },
+    {
+        "name": "Washington D.C.",
+        "slug": "washington-d-c",
+        "parent": "Virginia"
+    },
+    {
+        "name": "Washington",
+        "slug": "US-WA",
+        "parent": "United States"
+    },
+    {
+        "name": "Portland",
+        "slug": "portland",
+        "parent": "Washington"
+    },
+    {
+        "name": "West Virginia",
+        "slug": "US-WV",
+        "parent": "United States"
+    },
+    {
+        "name": "Wisconsin",
+        "slug": "US-WI",
+        "parent": "United States"
+    },
+    {
+        "name": "Wyoming",
+        "slug": "US-WY",
+        "parent": "United States"
+    },
+    {
+        "name": "District of Columbia",
+        "slug": "US-DC",
+        "parent": "United States"
+    },
+    {
+        "name": "American Samoa",
+        "slug": "US-AS",
+        "parent": "United States"
+    },
+    {
+        "name": "Guam",
+        "slug": "US-GU",
+        "parent": "United States"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "slug": "US-MP",
+        "parent": "United States"
+    },
+    {
+        "name": "Puerto Rico",
+        "slug": "US-PR",
+        "parent": "United States"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "slug": "US-UM",
+        "parent": "United States"
+    },
+    {
+        "name": "Virgin Islands",
+        "slug": "US-VI",
+        "parent": "United States"
+    },
+    {
+        "name": "Oceania",
+        "slug": "oceania"
+    },
+    {
+        "name": "South America",
+        "slug": "south-america"
+    },
+    {
+        "name": "Argentina",
+        "slug": "AR",
+        "parent": "South America"
+    },
+    {
+        "name": "Bolivia",
+        "slug": "BO",
+        "parent": "South America"
+    },
+    {
+        "name": "Bouvet Island",
+        "slug": "BV",
+        "parent": "South America"
+    },
+    {
+        "name": "Brazil",
+        "slug": "BR",
+        "parent": "South America"
+    },
+    {
+        "name": "Sao Paulo",
+        "slug": "sao-paulo",
+        "parent": "Brazil"
+    },
+    {
+        "name": "Chile",
+        "slug": "CL",
+        "parent": "South America"
+    },
+    {
+        "name": "Columbia",
+        "slug": "CO",
+        "parent": "South America"
+    },
+    {
+        "name": "Ecuador",
+        "slug": "EC",
+        "parent": "South America"
+    },
+    {
+        "name": "Falkland Islands",
+        "slug": "FK",
+        "parent": "South America"
+    },
+    {
+        "name": "French Guiana",
+        "slug": "GF",
+        "parent": "South America"
+    },
+    {
+        "name": "Guyana",
+        "slug": "GY",
+        "parent": "South America"
+    },
+    {
+        "name": "Paraguay",
+        "slug": "PY",
+        "parent": "South America"
+    },
+    {
+        "name": "Peru",
+        "slug": "PE",
+        "parent": "South America"
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "slug": "GS",
+        "parent": "South America"
+    },
+    {
+        "name": "Suriname",
+        "slug": "SR",
+        "parent": "South America"
+    },
+    {
+        "name": "Uruguay",
+        "slug": "UY",
+        "parent": "South America"
+    },
+    {
+        "name": "Venezuela",
+        "slug": "VE",
+        "parent": "South America"
+    }
+]
